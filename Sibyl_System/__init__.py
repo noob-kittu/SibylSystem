@@ -45,9 +45,9 @@ else:
     STRING_SESSION = Config.STRING_SESSION
     MONGO_DB_URL = Config.MONGO_DB_URL
 
-    SIBYL = data["SIBYL"]
-    ENFORCERS = data["ENFORCERS"]
-    INSPECTORS = data["INSPECTORS"]
+    SIBYL = Config.SIBYL
+    ENFORCERS = Config.ENFORCER
+    INSPECTORS = Config.INSPECTORS
     Sibyl_logs = Config.Sibyl_logs
     Sibyl_approved_logs = Config.Sibyl_approved_logs
     GBAN_MSG_LOGS = Config.GBAN_MSG_LOGS
