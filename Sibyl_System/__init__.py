@@ -46,7 +46,7 @@ else:
     MONGO_DB_URL = Config.MONGO_DB_URL
 
     SIBYL = Config.SIBYL
-    ENFORCERS = Config.ENFORCER
+    ENFORCERS = Config.ENFORCERS
     INSPECTORS = Config.INSPECTORS
     Sibyl_logs = Config.Sibyl_logs
     Sibyl_approved_logs = Config.Sibyl_approved_logs
